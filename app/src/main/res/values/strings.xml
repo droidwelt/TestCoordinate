@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestCoordinate</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="s_auto">Автоопределение</string>
+    <string name="s_geotune">Настройка геолокации</string>
+    <string name="s_mapfull">Полная карта</string>
+    <string name="s_mapsimple">Схематичная карта</string>
+    <string name="s_test">Тестовый режим</string>
+
+    <string name="s_prov_gps">Координаты по GPS</string>
+    <string name="s_prov_net">Координаты по сети</string>
+
+    <string name="s_track_start">Старт</string>
+    <string name="s_track_stop">Стоп</string>
+</resources>

@@ -1,0 +1,70 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="droidwelt.ru.osm1.MainActivity">
+    <group
+        android:id="@+id/g1"
+        android:menuCategory="container"
+        android:orderInCategory="1">
+        <item
+            android:id="@+id/action_locate_auto"
+            android:checkable="true"
+            android:checked="false"
+            android:orderInCategory="100"
+            android:title="@string/s_auto" />
+    </group>
+    <group
+        android:id="@+id/g2"
+        android:menuCategory="container"
+        android:orderInCategory="2">
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:orderInCategory="200"
+            android:title="@string/s_geotune"
+            app:showAsAction="never" />
+    </group>
+    <group
+        android:id="@+id/g3"
+        android:checkableBehavior="all"
+        android:menuCategory="container"
+        android:orderInCategory="3">
+        <item
+            android:id="@+id/map_type_0"
+            android:checked="false"
+            android:title="@string/s_mapfull" />
+        <item
+            android:id="@+id/map_type_1"
+            android:checked="false"
+            android:title="@string/s_mapsimple" />
+    </group>
+
+    <group
+        android:id="@+id/g5"
+        android:checkableBehavior="all"
+        android:menuCategory="container"
+        android:orderInCategory="3">
+        <item
+            android:id="@+id/prov_gps"
+            android:checked="false"
+            android:title="@string/s_prov_gps" />
+        <item
+            android:id="@+id/prov_net"
+            android:checked="true"
+            android:title="@string/s_prov_net" />
+    </group>
+
+
+
+    <group
+        android:id="@+id/g4"
+        android:menuCategory="container"
+        android:orderInCategory="4">
+        <item
+            android:id="@+id/action_testmode"
+            android:checkable="true"
+            android:checked="false"
+            android:orderInCategory="200"
+            android:title="@string/s_test"    />
+    </group>
+</menu>
